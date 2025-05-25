@@ -18,6 +18,15 @@ Ask questions like:
 - "Show all orders placed in March 2024"
 - "Find all products with price above 1000"
 
+## Database Schema Setup
+
+You must create a MySQL database `company_db` and the following tables:
+
+### Create 4 tables 'department', `employees`, 'orders' and 'products'. 
+
+Populate tables with sample data if needed for testing.
+
+
 ## Set Up Python Environment
 
 python -m venv venv
