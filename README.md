@@ -18,3 +18,14 @@ Ask questions like:
 - "Show all orders placed in March 2024"
 - "Find all products with price above 1000"
 
+## Set Up Python Environment
+
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+## Run Ollama LLM
+
+Make sure Ollama is downloaded and installed and the llama3.2:3b model is pulled:
+--bash--
+ollama run llama3.2:3b
